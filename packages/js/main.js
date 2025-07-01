@@ -111,6 +111,23 @@ for (let i = 0; i < slideBeforeCertificate.length; i++) {
     })
 }
 
+const seeAllBtn = document.getElementById("see-all-btn");
+const showLessBtn = document.getElementById("show-less-btn");
+const hiddenCertificates = document.querySelectorAll(".hidden-certificate");
+
+seeAllBtn.addEventListener("click", () => {
+  hiddenCertificates.forEach(el => el.style.display = "block");
+  seeAllBtn.style.display = "none";
+  showLessBtn.style.display = "inline";
+});
+
+showLessBtn.addEventListener("click", () => {
+  hiddenCertificates.forEach(el => el.style.display = "none");
+  showLessBtn.style.display = "none";
+  seeAllBtn.style.display = "inline";
+});
+
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll("section[id]");
 
