@@ -220,6 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then(function () {
         alert("Message sent successfully!");
         contactForm.reset();
+        grecaptcha.reset(); // Reset CAPTCHA setelah sukses
       }, function (error) {
         alert("Failed to send message:\n" + JSON.stringify(error));
       });

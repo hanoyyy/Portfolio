@@ -867,6 +867,10 @@ textarea.contact__input {
     margin-left: 0;
 }
 
+.g-recaptcha {
+  margin: 1rem 0;
+}
+
 /*==================== FOOTER ====================*/
 .footer {
   padding-top: 2rem;
