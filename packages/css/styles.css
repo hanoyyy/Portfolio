@@ -459,7 +459,7 @@ img {
 }
 
 .section__subtitle {
-  color: var(--title-color);
+  color: var(--text-color-light);
 }
 
 .about__container {
@@ -492,6 +492,7 @@ body.dark-theme .about__container {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
+  color: var(--title-color);  
 }
 
 .qualification__button:hover {
@@ -519,6 +520,7 @@ body.dark-theme .about__container {
   display: inline-block;
   font-size: var(--normal-font-size);
   margin-bottom: var(--mb-1);
+  color: var(--text-color-light);
 }
 
 .qualification__calendar {
@@ -620,6 +622,7 @@ body.dark-theme .about__container {
 
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
+  color: var(--text-color-light);
 }
 
 .portfolio__button:hover .button__icon {
@@ -806,6 +809,7 @@ body.dark-theme .about__container {
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
+  color: var(--text-color-light); 
 }
 
 .contact__icon {
