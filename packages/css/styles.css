@@ -458,6 +458,10 @@ img {
   color: var(--first-color);
 }
 
+.section__subtitle {
+  color: var(--title-color);
+}
+
 .about__container {
   width: 70%;
   margin: 2rem auto;
